@@ -28,7 +28,7 @@ while True:
             message='Your Device Has Charged, Please Disconnect The Power Plug',
             timeout=9,
         )
-        playsound("C:/Users/ankit/OneDrive/Desktop/python/SCRAP YARD/beep.mp3")
+        playsound("assets/beep.mp3")
 
     if Battery < 99 and State.lower() != "charging":
         notified = False
