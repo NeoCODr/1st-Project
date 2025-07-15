@@ -3,6 +3,7 @@ import time
 import batteryinfo as bi
 from playsound3 import playsound
 
+print("Your Application Has Started...")
 
 prev_percent = None
 notified = False
